@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.password-bg-container {
+  background-color: #9ba9eb;
+  background-size: cover;
+  min-height: 100vh;
+}
+.password-logo {
+  height: 40px;
+  width: 120px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.password-manager-card {
+  background-color: #5763a5;
+  width: 90%;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .password-manager-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password-manager-img {
+  height: 250px;
+  width: 250px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .password-manager-img {
+    display: none;
+  }
+}
+.large-img {
+  height: 350px;
+  width: 350px;
+}
+.password-view-large {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .password-view-large {
+    display: block;
+  }
+}
+.add-password-heading {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'roboto';
+  margin-left: 20px;
+}
+.password-con-card {
+  background-color: #454f84;
+  height: 300px;
+  width: 350px;
+  margin-left: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+.website-image {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  margin-left: 10px;
+}
+.website-input-card {
+  background-color: #fff;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10px;
+  margin: 20px;
+}
+.website-input {
+  width: 100%;
+  margin-left: 10px;
+  border: 0;
+  outline: none;
+  font-weight: 600;
+}
+.horizontal-line {
+  color: #fff;
+  margin-left: 10px;
+}
+.add-button {
+  height: 30px;
+  width: 70px;
+  font-family: 'roboto';
+  background-color: #0b69ff;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+}
+.button-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.your-password-card {
+  background-color: #5763a5;
+  width: 90%;
+  border-radius: 10px;
+}
+.your-passwords-heading-card {
+  font-family: 'roboto';
+  display: flex;
+  justify-content: space-between;
+}
+.search-img {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+.input-search {
+  margin-right: 20px;
+  height: 35px;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+}
+.your-password-search {
+  background-color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.horizontal {
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.password-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 20px;
+}
+.password-count {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  width: 40px;
+}
+.your-password-heading-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.your-bg-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-password-img {
+  height: 300px;
+  width: 500px;
+}
+.bottom-horizontal {
+  margin: 20px;
+}
+.show-password-con {
+  display: flex;
+  justify-content: flex-end;
+}
+.show-password-para {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+.bottom-show-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-no-password {
+  color: #fff;
+  font-family: 'roboto';
+  font-size: 20px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+}
+.initial {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.initial-background {
+  display: flex;
+  align-items: center;
+  border: 2px solid #bfbfbf;
+  border-radius: 10px;
+  margin: 20px;
+}
+.website-details {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.delete-button {
+  border: 0;
+  background-color: transparent;
+}
+.delete-img {
+  border: 0;
+  height: 30px;
+  width: 30px;
+}
+.stars-img {
+  width: 100px;
+  height: 10px;
+}
+.brown {
+  background-color: #b91c1c;
+}
